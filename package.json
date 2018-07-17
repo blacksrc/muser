@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "author": "Siamak A.Motlagh <siamak.aghaeipour@gmail.com> (http://blacksrc.com/)",
   "private": true,
-  "license" : "(GNU GENERAL PUBLIC LICENSE)",
+  "license": "(GNU GENERAL PUBLIC LICENSE)",
   "homepage": "https://github.com/blacksrc/muser#readme",
-  "repository": { 
-    "type" : "git",
-    "url" : "https://github.com/blacksrc/muser"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blacksrc/muser"
   },
   "devDependencies": {
     "react-native-scripts": "1.14.0",
@@ -26,6 +26,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "expo": "^27.0.1",
     "react": "16.3.1",
     "react-native": "~0.55.2"
