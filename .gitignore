@@ -9,6 +9,10 @@
 # dependencies
 /node_modules
 
+# android and ios dirs
+android
+ios
+
 # misc
 .env.local
 .env.development.local
