@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Container, Content, Footer, FooterTab, Button, Text } from 'native-base';
 import Expo from "expo";
 import AppHeader from './src/layout/AppHeader';
+import Search from './src/component/Search';
 
 class App extends Component {
 
@@ -26,9 +27,10 @@ class App extends Component {
     return (
       <Container>
         <AppHeader />
+        
         <Content>
+          <Search />
           <Text>
-            Search and download music for free!
           </Text>
         </Content>
       </Container>
